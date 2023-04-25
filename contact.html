@@ -37,7 +37,34 @@
     </div>
   </div>
 </nav>
-  <h3 class="text-center">
+<!--Entry Form Start-->
+  <h1 class="text-center">Contact Me!</h1>
+<div id="form">
+  <div class="formbox">
+    <div class="contentWrapper">
+      <form action="" method="post" name="signUpForm" id="signUpForm" class="text-center bg">
+        <fieldset id="signUp">
+
+          <label for="nameField">Name:</label><br>
+          <input id="nameField" name="nameField" type="text" class="textfield" value="First and Last Name"
+            onfocus="clearName();" onblur="resetName();">
+          <div class="p-3"></div>
+          <label for="phoneField">Phone:</label><br>
+          <input id="phoneField" name="phoneField" type="text" class="textfield" value="example: 212-123-1234"
+            onfocus="clearPhone();" onblur="resetPhone();">
+          <div class="p-3"></div>
+          <label for="emailField">Email:</label><br>
+          <input id="emailField" name="emailField" type="text" class="textfield" value="example123@example.com"
+            onfocus="clearEmail();" onblur="resetEmail();">
+          <div class="p-3"></div>
+          <input id="submit button" type="submit" name="submit" value="Sign Me Up!" onclick="submitPage();">
+
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+<!--<h3 class="text-center">
 				Contact Me!
 			</h3>
 
@@ -71,9 +98,11 @@
 			</form>
 		</div>
 	</div>
-</div>
+</div>-->
+  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    </body>
+<script src="script.js"></script>   
+</body>
 
 </html>
             
